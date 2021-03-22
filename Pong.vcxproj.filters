@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b995c3f0-eb6d-4d17-b998-8707673225ee}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SettingsDlgBox">
+      <UniqueIdentifier>{1dd4ff1c-967b-4f79-a4b5-1258d8ef60d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects">
+      <UniqueIdentifier>{d57728e1-6454-4238-8d5c-c55e3c0c75a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{c0e5c41e-6f6c-4e37-b79c-d05ab9db3287}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game Objects No. 1">
+      <UniqueIdentifier>{820f5629-1283-4139-9e16-5ca7b54886e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0f7514d8-c74b-4be9-964a-417b06f576ff}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PongMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgBox.cpp">
+      <Filter>Source Files\SettingsDlgBox</Filter>
+    </ClCompile>
+    <ClCompile Include="HandleMsg%27s.cpp">
+      <Filter>Source Files\SettingsDlgBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Setup.cpp">
+      <Filter>Source Files\SettingsDlgBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DlgBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PongMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\Game Objects No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Game Objects No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>Header Files\Game Objects No. 1</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ResourceS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

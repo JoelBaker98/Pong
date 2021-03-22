@@ -1,0 +1,168 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+ 
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+BALL1                   BITMAP                  "Images\\ball1.bmp"
+
+MAP1                    BITMAP                  "Images\\map1.bmp"
+
+PADDLE1                 BITMAP                  "Images\\paddle1.bmp"
+
+BALL2                   BITMAP                  "Images\\ball3.bmp"
+
+BALL                    BITMAP                  "Images\\ball2.bmp"
+
+PADDLE2                 BITMAP                  "Images\\paddle2.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+PONG                    ICON                    "Images\\Pong.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+PONG                    CURSOR                  "Images\\Arrow.cur"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+PONG MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New Game",                   IDM_NEWGAME
+        MENUITEM "&Settings",                   IDM_SETTINGS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About",                      IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_WINXP               RT_MANIFEST             "Images\\Theme.bin"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+SETTINGS DIALOG 100, 50, 209, 198
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "OK",ID_OK,97,176,50,14
+    PUSHBUTTON      "Cancel",ID_CANCEL,152,176,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "SETTINGS", DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 208
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+BallSound1               WAVE                    "Sounds\\BallSound1.wav"
+
+BallSound2               WAVE                    "Sounds\\BallSound2.wav"
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
